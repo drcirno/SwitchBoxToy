@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DEFDE620530E1300A4CE4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEFDE520530E1300A4CE4D /* AppDelegate.swift */; };
+		03DEFDE820530E1300A4CE4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEFDE720530E1300A4CE4D /* ViewController.swift */; };
+		03DEFDEB20530E1300A4CE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DEFDE920530E1300A4CE4D /* Main.storyboard */; };
+		03DEFDED20530E1300A4CE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DEFDEC20530E1300A4CE4D /* Assets.xcassets */; };
+		03DEFDF020530E1300A4CE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DEFDEE20530E1300A4CE4D /* LaunchScreen.storyboard */; };
+		03DEFDFB20530E1300A4CE4D /* SwitchBoxToyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEFDFA20530E1300A4CE4D /* SwitchBoxToyTests.swift */; };
+		03DEFE0620530E1400A4CE4D /* SwitchBoxToyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DEFE0520530E1400A4CE4D /* SwitchBoxToyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03DEFDF720530E1300A4CE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DEFDDA20530E1300A4CE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DEFDE120530E1300A4CE4D;
+			remoteInfo = SwitchBoxToy;
+		};
+		03DEFE0220530E1400A4CE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03DEFDDA20530E1300A4CE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03DEFDE120530E1300A4CE4D;
+			remoteInfo = SwitchBoxToy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03DEFDE220530E1300A4CE4D /* SwitchBoxToy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchBoxToy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DEFDE520530E1300A4CE4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03DEFDE720530E1300A4CE4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03DEFDEA20530E1300A4CE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03DEFDEC20530E1300A4CE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03DEFDEF20530E1300A4CE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03DEFDF120530E1300A4CE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DEFDF620530E1300A4CE4D /* SwitchBoxToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchBoxToyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DEFDFA20530E1300A4CE4D /* SwitchBoxToyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBoxToyTests.swift; sourceTree = "<group>"; };
+		03DEFDFC20530E1300A4CE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DEFE0120530E1400A4CE4D /* SwitchBoxToyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchBoxToyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DEFE0520530E1400A4CE4D /* SwitchBoxToyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBoxToyUITests.swift; sourceTree = "<group>"; };
+		03DEFE0720530E1400A4CE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DEFDDF20530E1300A4CE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEFDF320530E1300A4CE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEFDFE20530E1400A4CE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DEFDD920530E1300A4CE4D = {
+			isa = PBXGroup;
+			children = (
+				03DEFDE420530E1300A4CE4D /* SwitchBoxToy */,
+				03DEFDF920530E1300A4CE4D /* SwitchBoxToyTests */,
+				03DEFE0420530E1400A4CE4D /* SwitchBoxToyUITests */,
+				03DEFDE320530E1300A4CE4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DEFDE320530E1300A4CE4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DEFDE220530E1300A4CE4D /* SwitchBoxToy.app */,
+				03DEFDF620530E1300A4CE4D /* SwitchBoxToyTests.xctest */,
+				03DEFE0120530E1400A4CE4D /* SwitchBoxToyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DEFDE420530E1300A4CE4D /* SwitchBoxToy */ = {
+			isa = PBXGroup;
+			children = (
+				03DEFDE520530E1300A4CE4D /* AppDelegate.swift */,
+				03DEFDE720530E1300A4CE4D /* ViewController.swift */,
+				03DEFDE920530E1300A4CE4D /* Main.storyboard */,
+				03DEFDEC20530E1300A4CE4D /* Assets.xcassets */,
+				03DEFDEE20530E1300A4CE4D /* LaunchScreen.storyboard */,
+				03DEFDF120530E1300A4CE4D /* Info.plist */,
+			);
+			path = SwitchBoxToy;
+			sourceTree = "<group>";
+		};
+		03DEFDF920530E1300A4CE4D /* SwitchBoxToyTests */ = {
+			isa = PBXGroup;
+			children = (
+				03DEFDFA20530E1300A4CE4D /* SwitchBoxToyTests.swift */,
+				03DEFDFC20530E1300A4CE4D /* Info.plist */,
+			);
+			path = SwitchBoxToyTests;
+			sourceTree = "<group>";
+		};
+		03DEFE0420530E1400A4CE4D /* SwitchBoxToyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03DEFE0520530E1400A4CE4D /* SwitchBoxToyUITests.swift */,
+				03DEFE0720530E1400A4CE4D /* Info.plist */,
+			);
+			path = SwitchBoxToyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DEFDE120530E1300A4CE4D /* SwitchBoxToy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DEFE0A20530E1400A4CE4D /* Build configuration list for PBXNativeTarget "SwitchBoxToy" */;
+			buildPhases = (
+				03DEFDDE20530E1300A4CE4D /* Sources */,
+				03DEFDDF20530E1300A4CE4D /* Frameworks */,
+				03DEFDE020530E1300A4CE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchBoxToy;
+			productName = SwitchBoxToy;
+			productReference = 03DEFDE220530E1300A4CE4D /* SwitchBoxToy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03DEFDF520530E1300A4CE4D /* SwitchBoxToyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DEFE0D20530E1400A4CE4D /* Build configuration list for PBXNativeTarget "SwitchBoxToyTests" */;
+			buildPhases = (
+				03DEFDF220530E1300A4CE4D /* Sources */,
+				03DEFDF320530E1300A4CE4D /* Frameworks */,
+				03DEFDF420530E1300A4CE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DEFDF820530E1300A4CE4D /* PBXTargetDependency */,
+			);
+			name = SwitchBoxToyTests;
+			productName = SwitchBoxToyTests;
+			productReference = 03DEFDF620530E1300A4CE4D /* SwitchBoxToyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03DEFE0020530E1400A4CE4D /* SwitchBoxToyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DEFE1020530E1400A4CE4D /* Build configuration list for PBXNativeTarget "SwitchBoxToyUITests" */;
+			buildPhases = (
+				03DEFDFD20530E1400A4CE4D /* Sources */,
+				03DEFDFE20530E1400A4CE4D /* Frameworks */,
+				03DEFDFF20530E1400A4CE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03DEFE0320530E1400A4CE4D /* PBXTargetDependency */,
+			);
+			name = SwitchBoxToyUITests;
+			productName = SwitchBoxToyUITests;
+			productReference = 03DEFE0120530E1400A4CE4D /* SwitchBoxToyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DEFDDA20530E1300A4CE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Yeongjin Nam";
+				TargetAttributes = {
+					03DEFDE120530E1300A4CE4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					03DEFDF520530E1300A4CE4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03DEFDE120530E1300A4CE4D;
+					};
+					03DEFE0020530E1400A4CE4D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03DEFDE120530E1300A4CE4D;
+					};
+				};
+			};
+			buildConfigurationList = 03DEFDDD20530E1300A4CE4D /* Build configuration list for PBXProject "SwitchBoxToy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DEFDD920530E1300A4CE4D;
+			productRefGroup = 03DEFDE320530E1300A4CE4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DEFDE120530E1300A4CE4D /* SwitchBoxToy */,
+				03DEFDF520530E1300A4CE4D /* SwitchBoxToyTests */,
+				03DEFE0020530E1400A4CE4D /* SwitchBoxToyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DEFDE020530E1300A4CE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEFDF020530E1300A4CE4D /* LaunchScreen.storyboard in Resources */,
+				03DEFDED20530E1300A4CE4D /* Assets.xcassets in Resources */,
+				03DEFDEB20530E1300A4CE4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEFDF420530E1300A4CE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEFDFF20530E1400A4CE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DEFDDE20530E1300A4CE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEFDE820530E1300A4CE4D /* ViewController.swift in Sources */,
+				03DEFDE620530E1300A4CE4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEFDF220530E1300A4CE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEFDFB20530E1300A4CE4D /* SwitchBoxToyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03DEFDFD20530E1400A4CE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DEFE0620530E1400A4CE4D /* SwitchBoxToyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03DEFDF820530E1300A4CE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DEFDE120530E1300A4CE4D /* SwitchBoxToy */;
+			targetProxy = 03DEFDF720530E1300A4CE4D /* PBXContainerItemProxy */;
+		};
+		03DEFE0320530E1400A4CE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03DEFDE120530E1300A4CE4D /* SwitchBoxToy */;
+			targetProxy = 03DEFE0220530E1400A4CE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03DEFDE920530E1300A4CE4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DEFDEA20530E1300A4CE4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03DEFDEE20530E1300A4CE4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DEFDEF20530E1300A4CE4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DEFE0820530E1400A4CE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03DEFE0920530E1400A4CE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DEFE0B20530E1400A4CE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitchBoxToy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwitchBoxToy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03DEFE0C20530E1400A4CE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitchBoxToy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwitchBoxToy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03DEFE0E20530E1400A4CE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitchBoxToyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwitchBoxToyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchBoxToy.app/SwitchBoxToy";
+			};
+			name = Debug;
+		};
+		03DEFE0F20530E1400A4CE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitchBoxToyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwitchBoxToyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchBoxToy.app/SwitchBoxToy";
+			};
+			name = Release;
+		};
+		03DEFE1120530E1400A4CE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitchBoxToyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwitchBoxToyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitchBoxToy;
+			};
+			name = Debug;
+		};
+		03DEFE1220530E1400A4CE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwitchBoxToyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwitchBoxToyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitchBoxToy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DEFDDD20530E1300A4CE4D /* Build configuration list for PBXProject "SwitchBoxToy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DEFE0820530E1400A4CE4D /* Debug */,
+				03DEFE0920530E1400A4CE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DEFE0A20530E1400A4CE4D /* Build configuration list for PBXNativeTarget "SwitchBoxToy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DEFE0B20530E1400A4CE4D /* Debug */,
+				03DEFE0C20530E1400A4CE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DEFE0D20530E1400A4CE4D /* Build configuration list for PBXNativeTarget "SwitchBoxToyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DEFE0E20530E1400A4CE4D /* Debug */,
+				03DEFE0F20530E1400A4CE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DEFE1020530E1400A4CE4D /* Build configuration list for PBXNativeTarget "SwitchBoxToyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DEFE1120530E1400A4CE4D /* Debug */,
+				03DEFE1220530E1400A4CE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DEFDDA20530E1300A4CE4D /* Project object */;
+}
